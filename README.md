@@ -29,7 +29,7 @@ Install Chaos Mesh
 
 ```bash
 helm repo add chaos-mesh https://charts.chaos-mesh.org
-helm install chaos-mesh chaos-mesh/chaos-mesh -n chaos-mesh --create-namespac
+helm install chaos-mesh chaos-mesh/chaos-mesh -n chaos-mesh --create-namespace
 ```
 
 ## Examples
