@@ -1,0 +1,11 @@
+apiVersion: chaos-mesh.org/v1alpha1
+kind: PodChaos
+metadata:
+  name: pod-failure-left-arm
+  namespace: podtato-kubectl
+spec:
+  action: pod-failure
+  mode: one
+  selector:
+    labelSelectors:
+      "component": "podtato-head-left-arm"
