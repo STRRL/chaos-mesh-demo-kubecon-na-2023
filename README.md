@@ -1,5 +1,9 @@
 # Chaos Mesh Demo on KubeCOn NA 2023
 
+This repo contains manifests which used on Chaos Mesh demo on KubeCon NA 2023.
+
+Video: https://www.youtube.com/watch?v=j57F-c8zIuc
+
 ## Setup Kubernetes Cluster
 
 Start minikube cluster
