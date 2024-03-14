@@ -2,6 +2,7 @@ apiVersion: chaos-mesh.org/v1alpha1
 kind: HTTPChaos
 metadata:
   name: replace-podtato-hat
+  namespace: podtato-kubectl
 spec:
   mode: all
   selector:

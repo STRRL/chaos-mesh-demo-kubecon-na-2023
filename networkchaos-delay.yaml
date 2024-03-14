@@ -87,6 +87,7 @@ apiVersion: chaos-mesh.org/v1alpha1
 kind: NetworkChaos
 metadata:
   name: network-delay-hat
+  namespace: podtato-kubectl
 spec:
   action: delay
   direction: to
